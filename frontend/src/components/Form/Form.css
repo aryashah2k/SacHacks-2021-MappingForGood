@@ -1,0 +1,53 @@
+/* All animations are in frontend/index.css */
+
+.Form { 
+    padding: 80px 100px;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+.Form form {
+    background-color: rgb(56, 57, 49);
+    padding: 40px;
+}
+
+.Form label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.pill {
+    width:30%;
+    height:50px;
+    border-radius: 8px;
+    padding:5px;
+             
+}
+
+.Form textarea {
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    outline: none;
+    border-radius:8px;
+    resize: none;
+}
+
+.Form .card {
+    border-radius: 10px;
+}
+
+.Form .form .card {
+    padding: 10px;
+}
+
+.Form input, .MessageBoard input, .Form textarea {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 18px;
+}
+
+.Form button {
+    width: 20%;
+    padding: 20px;
+}
