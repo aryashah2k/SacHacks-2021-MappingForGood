@@ -1,0 +1,17 @@
+.App .MuiAppBar-colorPrimary {
+  background-color: #2d2c2c!important;
+  padding: 0.75rem;
+}
+
+.App a {
+  color:  #cccccc;
+  padding: 1rem;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+
+.App a:hover {
+  text-shadow: 2px 2px grey;
+  transition: 0.1s linear;
+}
+
